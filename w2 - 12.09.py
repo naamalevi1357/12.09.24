@@ -43,7 +43,7 @@ while True:
     y2: bool = 10 <= y <= 60
     z3: bool = 60 <= z <= 100
 
-    if x1 and y2 and z3 and c == y2 and not x1 == y2== z3:
+    if x1 and y2 and z3 and c == y and not x == y== z:
         break
     else:
         print("finish")
